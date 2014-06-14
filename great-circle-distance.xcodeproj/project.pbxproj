@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50CE7D29194C9ECB003BE944 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CE7D28194C9ECB003BE944 /* Foundation.framework */; };
+		50CE7D2B194C9ECB003BE944 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CE7D2A194C9ECB003BE944 /* CoreGraphics.framework */; };
+		50CE7D2D194C9ECB003BE944 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CE7D2C194C9ECB003BE944 /* UIKit.framework */; };
+		50CE7D33194C9ECB003BE944 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50CE7D31194C9ECB003BE944 /* InfoPlist.strings */; };
+		50CE7D35194C9ECB003BE944 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CE7D34194C9ECB003BE944 /* main.m */; };
+		50CE7D39194C9ECB003BE944 /* GSDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CE7D38194C9ECB003BE944 /* GSDAppDelegate.m */; };
+		50CE7D3C194C9ECB003BE944 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50CE7D3A194C9ECB003BE944 /* Main.storyboard */; };
+		50CE7D3F194C9ECB003BE944 /* GSDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CE7D3E194C9ECB003BE944 /* GSDViewController.m */; };
+		50CE7D41194C9ECB003BE944 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50CE7D40194C9ECB003BE944 /* Images.xcassets */; };
+		50CE7D48194C9ECB003BE944 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CE7D47194C9ECB003BE944 /* XCTest.framework */; };
+		50CE7D49194C9ECB003BE944 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CE7D28194C9ECB003BE944 /* Foundation.framework */; };
+		50CE7D4A194C9ECB003BE944 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CE7D2C194C9ECB003BE944 /* UIKit.framework */; };
+		50CE7D52194C9ECB003BE944 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50CE7D50194C9ECB003BE944 /* InfoPlist.strings */; };
+		50CE7D54194C9ECB003BE944 /* great_circle_distanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CE7D53194C9ECB003BE944 /* great_circle_distanceTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50CE7D4B194C9ECB003BE944 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50CE7D1D194C9ECA003BE944 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50CE7D24194C9ECA003BE944;
+			remoteInfo = "great-circle-distance";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50CE7D25194C9ECB003BE944 /* great-circle-distance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "great-circle-distance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50CE7D28194C9ECB003BE944 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		50CE7D2A194C9ECB003BE944 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		50CE7D2C194C9ECB003BE944 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		50CE7D30194C9ECB003BE944 /* great-circle-distance-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "great-circle-distance-Info.plist"; sourceTree = "<group>"; };
+		50CE7D32194C9ECB003BE944 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		50CE7D34194C9ECB003BE944 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50CE7D36194C9ECB003BE944 /* great-circle-distance-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "great-circle-distance-Prefix.pch"; sourceTree = "<group>"; };
+		50CE7D37194C9ECB003BE944 /* GSDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSDAppDelegate.h; sourceTree = "<group>"; };
+		50CE7D38194C9ECB003BE944 /* GSDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSDAppDelegate.m; sourceTree = "<group>"; };
+		50CE7D3B194C9ECB003BE944 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50CE7D3D194C9ECB003BE944 /* GSDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSDViewController.h; sourceTree = "<group>"; };
+		50CE7D3E194C9ECB003BE944 /* GSDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSDViewController.m; sourceTree = "<group>"; };
+		50CE7D40194C9ECB003BE944 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		50CE7D46194C9ECB003BE944 /* great-circle-distanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "great-circle-distanceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50CE7D47194C9ECB003BE944 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		50CE7D4F194C9ECB003BE944 /* great-circle-distanceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "great-circle-distanceTests-Info.plist"; sourceTree = "<group>"; };
+		50CE7D51194C9ECB003BE944 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		50CE7D53194C9ECB003BE944 /* great_circle_distanceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = great_circle_distanceTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50CE7D22194C9ECA003BE944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50CE7D2B194C9ECB003BE944 /* CoreGraphics.framework in Frameworks */,
+				50CE7D2D194C9ECB003BE944 /* UIKit.framework in Frameworks */,
+				50CE7D29194C9ECB003BE944 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50CE7D43194C9ECB003BE944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50CE7D48194C9ECB003BE944 /* XCTest.framework in Frameworks */,
+				50CE7D4A194C9ECB003BE944 /* UIKit.framework in Frameworks */,
+				50CE7D49194C9ECB003BE944 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50CE7D1C194C9ECA003BE944 = {
+			isa = PBXGroup;
+			children = (
+				50CE7D2E194C9ECB003BE944 /* great-circle-distance */,
+				50CE7D4D194C9ECB003BE944 /* great-circle-distanceTests */,
+				50CE7D27194C9ECB003BE944 /* Frameworks */,
+				50CE7D26194C9ECB003BE944 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50CE7D26194C9ECB003BE944 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50CE7D25194C9ECB003BE944 /* great-circle-distance.app */,
+				50CE7D46194C9ECB003BE944 /* great-circle-distanceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50CE7D27194C9ECB003BE944 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50CE7D28194C9ECB003BE944 /* Foundation.framework */,
+				50CE7D2A194C9ECB003BE944 /* CoreGraphics.framework */,
+				50CE7D2C194C9ECB003BE944 /* UIKit.framework */,
+				50CE7D47194C9ECB003BE944 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50CE7D2E194C9ECB003BE944 /* great-circle-distance */ = {
+			isa = PBXGroup;
+			children = (
+				50CE7D37194C9ECB003BE944 /* GSDAppDelegate.h */,
+				50CE7D38194C9ECB003BE944 /* GSDAppDelegate.m */,
+				50CE7D3A194C9ECB003BE944 /* Main.storyboard */,
+				50CE7D3D194C9ECB003BE944 /* GSDViewController.h */,
+				50CE7D3E194C9ECB003BE944 /* GSDViewController.m */,
+				50CE7D40194C9ECB003BE944 /* Images.xcassets */,
+				50CE7D2F194C9ECB003BE944 /* Supporting Files */,
+			);
+			path = "great-circle-distance";
+			sourceTree = "<group>";
+		};
+		50CE7D2F194C9ECB003BE944 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50CE7D30194C9ECB003BE944 /* great-circle-distance-Info.plist */,
+				50CE7D31194C9ECB003BE944 /* InfoPlist.strings */,
+				50CE7D34194C9ECB003BE944 /* main.m */,
+				50CE7D36194C9ECB003BE944 /* great-circle-distance-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50CE7D4D194C9ECB003BE944 /* great-circle-distanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				50CE7D53194C9ECB003BE944 /* great_circle_distanceTests.m */,
+				50CE7D4E194C9ECB003BE944 /* Supporting Files */,
+			);
+			path = "great-circle-distanceTests";
+			sourceTree = "<group>";
+		};
+		50CE7D4E194C9ECB003BE944 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50CE7D4F194C9ECB003BE944 /* great-circle-distanceTests-Info.plist */,
+				50CE7D50194C9ECB003BE944 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50CE7D24194C9ECA003BE944 /* great-circle-distance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50CE7D57194C9ECB003BE944 /* Build configuration list for PBXNativeTarget "great-circle-distance" */;
+			buildPhases = (
+				50CE7D21194C9ECA003BE944 /* Sources */,
+				50CE7D22194C9ECA003BE944 /* Frameworks */,
+				50CE7D23194C9ECA003BE944 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "great-circle-distance";
+			productName = "great-circle-distance";
+			productReference = 50CE7D25194C9ECB003BE944 /* great-circle-distance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50CE7D45194C9ECB003BE944 /* great-circle-distanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50CE7D5A194C9ECB003BE944 /* Build configuration list for PBXNativeTarget "great-circle-distanceTests" */;
+			buildPhases = (
+				50CE7D42194C9ECB003BE944 /* Sources */,
+				50CE7D43194C9ECB003BE944 /* Frameworks */,
+				50CE7D44194C9ECB003BE944 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50CE7D4C194C9ECB003BE944 /* PBXTargetDependency */,
+			);
+			name = "great-circle-distanceTests";
+			productName = "great-circle-distanceTests";
+			productReference = 50CE7D46194C9ECB003BE944 /* great-circle-distanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50CE7D1D194C9ECA003BE944 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GSD;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Max Lunin";
+				TargetAttributes = {
+					50CE7D45194C9ECB003BE944 = {
+						TestTargetID = 50CE7D24194C9ECA003BE944;
+					};
+				};
+			};
+			buildConfigurationList = 50CE7D20194C9ECA003BE944 /* Build configuration list for PBXProject "great-circle-distance" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50CE7D1C194C9ECA003BE944;
+			productRefGroup = 50CE7D26194C9ECB003BE944 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50CE7D24194C9ECA003BE944 /* great-circle-distance */,
+				50CE7D45194C9ECB003BE944 /* great-circle-distanceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50CE7D23194C9ECA003BE944 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50CE7D41194C9ECB003BE944 /* Images.xcassets in Resources */,
+				50CE7D33194C9ECB003BE944 /* InfoPlist.strings in Resources */,
+				50CE7D3C194C9ECB003BE944 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50CE7D44194C9ECB003BE944 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50CE7D52194C9ECB003BE944 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50CE7D21194C9ECA003BE944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50CE7D35194C9ECB003BE944 /* main.m in Sources */,
+				50CE7D39194C9ECB003BE944 /* GSDAppDelegate.m in Sources */,
+				50CE7D3F194C9ECB003BE944 /* GSDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50CE7D42194C9ECB003BE944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50CE7D54194C9ECB003BE944 /* great_circle_distanceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50CE7D4C194C9ECB003BE944 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50CE7D24194C9ECA003BE944 /* great-circle-distance */;
+			targetProxy = 50CE7D4B194C9ECB003BE944 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50CE7D31194C9ECB003BE944 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50CE7D32194C9ECB003BE944 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		50CE7D3A194C9ECB003BE944 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50CE7D3B194C9ECB003BE944 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50CE7D50194C9ECB003BE944 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50CE7D51194C9ECB003BE944 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50CE7D55194C9ECB003BE944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		50CE7D56194C9ECB003BE944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50CE7D58194C9ECB003BE944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "great-circle-distance/great-circle-distance-Prefix.pch";
+				INFOPLIST_FILE = "great-circle-distance/great-circle-distance-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		50CE7D59194C9ECB003BE944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "great-circle-distance/great-circle-distance-Prefix.pch";
+				INFOPLIST_FILE = "great-circle-distance/great-circle-distance-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		50CE7D5B194C9ECB003BE944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/great-circle-distance.app/great-circle-distance";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "great-circle-distance/great-circle-distance-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "great-circle-distanceTests/great-circle-distanceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		50CE7D5C194C9ECB003BE944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/great-circle-distance.app/great-circle-distance";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "great-circle-distance/great-circle-distance-Prefix.pch";
+				INFOPLIST_FILE = "great-circle-distanceTests/great-circle-distanceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50CE7D20194C9ECA003BE944 /* Build configuration list for PBXProject "great-circle-distance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50CE7D55194C9ECB003BE944 /* Debug */,
+				50CE7D56194C9ECB003BE944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50CE7D57194C9ECB003BE944 /* Build configuration list for PBXNativeTarget "great-circle-distance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50CE7D58194C9ECB003BE944 /* Debug */,
+				50CE7D59194C9ECB003BE944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		50CE7D5A194C9ECB003BE944 /* Build configuration list for PBXNativeTarget "great-circle-distanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50CE7D5B194C9ECB003BE944 /* Debug */,
+				50CE7D5C194C9ECB003BE944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50CE7D1D194C9ECA003BE944 /* Project object */;
+}
