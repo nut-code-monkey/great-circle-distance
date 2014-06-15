@@ -55,6 +55,7 @@
 		50CE7D51194C9ECB003BE944 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		50CE7D53194C9ECB003BE944 /* great_circle_distanceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = great_circle_distanceTests.m; sourceTree = "<group>"; };
 		50CE7D5D194C9F32003BE944 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		50CE7D5F194DBD36003BE944 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +86,7 @@
 		50CE7D1C194C9ECA003BE944 = {
 			isa = PBXGroup;
 			children = (
+				50CE7D5F194DBD36003BE944 /* README.md */,
 				50CE7D2E194C9ECB003BE944 /* great-circle-distance */,
 				50CE7D4D194C9ECB003BE944 /* great-circle-distanceTests */,
 				50CE7D27194C9ECB003BE944 /* Frameworks */,
