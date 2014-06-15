@@ -21,6 +21,7 @@
 		50CE7D4A194C9ECB003BE944 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CE7D2C194C9ECB003BE944 /* UIKit.framework */; };
 		50CE7D52194C9ECB003BE944 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50CE7D50194C9ECB003BE944 /* InfoPlist.strings */; };
 		50CE7D54194C9ECB003BE944 /* great_circle_distanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CE7D53194C9ECB003BE944 /* great_circle_distanceTests.m */; };
+		50CE7D5E194C9F32003BE944 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CE7D5D194C9F32003BE944 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		50CE7D4F194C9ECB003BE944 /* great-circle-distanceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "great-circle-distanceTests-Info.plist"; sourceTree = "<group>"; };
 		50CE7D51194C9ECB003BE944 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		50CE7D53194C9ECB003BE944 /* great_circle_distanceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = great_circle_distanceTests.m; sourceTree = "<group>"; };
+		50CE7D5D194C9F32003BE944 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50CE7D5E194C9F32003BE944 /* MapKit.framework in Frameworks */,
 				50CE7D2B194C9ECB003BE944 /* CoreGraphics.framework in Frameworks */,
 				50CE7D2D194C9ECB003BE944 /* UIKit.framework in Frameworks */,
 				50CE7D29194C9ECB003BE944 /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		50CE7D27194C9ECB003BE944 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				50CE7D5D194C9F32003BE944 /* MapKit.framework */,
 				50CE7D28194C9ECB003BE944 /* Foundation.framework */,
 				50CE7D2A194C9ECB003BE944 /* CoreGraphics.framework */,
 				50CE7D2C194C9ECB003BE944 /* UIKit.framework */,
